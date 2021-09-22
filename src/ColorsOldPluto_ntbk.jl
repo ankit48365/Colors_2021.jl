@@ -301,7 +301,7 @@ RGBX(0.9, 0.9, 0.9)
 
 # ╔═╡ Cell order:
 # ╠═676fcc70-fe6a-11ea-228a-8f3af1750c03
-# ╟─ec7bfd20-fe57-11ea-11ff-ad7d1063c690
+# ╠═ec7bfd20-fe57-11ea-11ff-ad7d1063c690
 # ╠═3e2b6a10-02b9-11eb-2026-5b14f80e3d02
 # ╠═ec64cba0-fe57-11ea-0a43-296a76f4e41f
 # ╟─64efe220-02b9-11eb-33a9-05fc5c343994
