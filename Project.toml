@@ -1,0 +1,13 @@
+name = "Colors_2021"
+uuid = "d295bf3b-2757-4e9c-93a8-58cd98b90cd8"
+authors = ["ankit DS"]
+version = "0.1.0"
+
+[compat]
+julia = "1.4.1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
