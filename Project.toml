@@ -3,6 +3,9 @@ uuid = "d295bf3b-2757-4e9c-93a8-58cd98b90cd8"
 authors = ["ankit DS"]
 version = "0.1.0"
 
+[deps]
+Pluto = "c3e4b0f8-55cb-11ea-2926-15256bba5781"
+
 [compat]
 julia = "1.4.1"
 
