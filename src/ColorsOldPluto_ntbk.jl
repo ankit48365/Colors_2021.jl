@@ -1,5 +1,5 @@
 ### A Pluto.jl notebook ###
-# v0.14.9
+# v0.12.10
 
 using Markdown
 using InteractiveUtils
@@ -11,24 +11,6 @@ macro bind(def, element)
         global $(esc(def)) = Core.applicable(Base.get, el) ? Base.get(el) : missing
         el
     end
-end
-
-# ╔═╡ ec64cba0-fe57-11ea-0a43-296a76f4e41f
-begin
-	import Pkg
-	Pkg.activate(mktempdir())
-end
-
-# ╔═╡ ec4ef9b0-fe57-11ea-3218-19d3eb36b629
-begin
-	Pkg.add(["Images", "ImageIO", "ImageMagick", "TestImages"])
-	using Images
-end
-
-# ╔═╡ 212b3722-031c-11eb-1002-c1d8a1e1cff2
-begin
-	Pkg.add("PlutoUI")
-	using PlutoUI
 end
 
 # ╔═╡ 208f935e-031c-11eb-172e-bf3a2463720c
@@ -48,6 +30,24 @@ Let's use the Images.jl package to load an image and see what we get
 	md"""
 	Code Syntax  -->  import Pkg --> 	Pkg.activate(mktempdir())
 	"""
+
+# ╔═╡ ec64cba0-fe57-11ea-0a43-296a76f4e41f
+begin
+	import Pkg
+	Pkg.activate(mktempdir())
+end
+
+# ╔═╡ ec4ef9b0-fe57-11ea-3218-19d3eb36b629
+begin
+	Pkg.add(["Images", "ImageIO", "ImageMagick", "TestImages"])
+	using Images
+end
+
+# ╔═╡ 212b3722-031c-11eb-1002-c1d8a1e1cff2
+begin
+	Pkg.add("PlutoUI")
+	using PlutoUI
+end
 
 # ╔═╡ 64efe220-02b9-11eb-33a9-05fc5c343994
 	md"""
@@ -304,9 +304,9 @@ RGBX(0.9, 0.9, 0.9)
 # ╠═ec7bfd20-fe57-11ea-11ff-ad7d1063c690
 # ╠═3e2b6a10-02b9-11eb-2026-5b14f80e3d02
 # ╠═ec64cba0-fe57-11ea-0a43-296a76f4e41f
-# ╟─64efe220-02b9-11eb-33a9-05fc5c343994
+# ╠═64efe220-02b9-11eb-33a9-05fc5c343994
 # ╠═ec4ef9b0-fe57-11ea-3218-19d3eb36b629
-# ╟─e72eb300-fe69-11ea-0295-235feccceff5
+# ╠═e72eb300-fe69-11ea-0295-235feccceff5
 # ╠═ec39eb10-fe57-11ea-1a17-f5177a3a2bc4
 # ╠═ec2578b0-fe57-11ea-21f9-3d06f046e6c7
 # ╠═ec0dd1fe-fe57-11ea-2bff-8f9c00037c98
